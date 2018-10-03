@@ -30,7 +30,7 @@ for(;k<=size;++k)
         }
         
 }
-median = abs((arr[k-2]+arr[k-1])/2);
+median = abs((arr[k-2]+arr[k-1])/2); //using abs() function to get the absolute value of parameter
 return median;
 }
 
